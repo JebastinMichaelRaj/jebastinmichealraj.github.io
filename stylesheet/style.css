@@ -1,4 +1,4 @@
-﻿/* Google Font */
+/* Google Font */
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
@@ -206,7 +206,7 @@ body {
 .prof-img img {
     border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
     animation: wobble 8s ease-in-out alternate infinite;
-    width: 350px;
+    width: 250px;
     box-shadow: -18px 20px 6px 0 #0000007d;
 }
 
@@ -414,7 +414,7 @@ body {
 
 .exp-details p {
     line-height: 1.8;
-    font-size: 1.4rem;
+    
 }
 
 .heading > h2 {
@@ -511,7 +511,6 @@ body {
     padding-top: 20px;
     margin: 20px;
     background-color: var(--color3);
-    width: 200px;
     border-radius: 20px;
     transition: .3s;
 
@@ -790,6 +789,5 @@ body {
 .grid_view {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
 }
 
