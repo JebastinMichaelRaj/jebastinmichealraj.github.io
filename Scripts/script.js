@@ -19,12 +19,14 @@ window.addEventListener('scroll', () => {
         navbar.classList.add("scroll");
         navLink.classList.add("scroll");
         toggleButton.classList.add("scroll");
+        navLink.classList.remove("active");
     }
     else {
         navbar.style.backgroundColor = "##2b7a78";
         navbar.classList.remove("scroll");
         navLink.classList.remove("scroll");
         toggleButton.classList.remove("scroll");
+        navLink.classList.remove("active");
     }
 })
 
