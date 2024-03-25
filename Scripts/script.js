@@ -1,4 +1,4 @@
-﻿// toggle bar 
+// toggle bar 
 const togglebutton = document.getElementsByClassName("toggle-button")[0];
 const navbarlinks = document.getElementsByClassName("nav-links")[0];
 
