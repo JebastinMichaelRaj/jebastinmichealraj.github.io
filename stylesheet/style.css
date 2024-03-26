@@ -414,7 +414,14 @@ body {
 
 .exp-details p {
     line-height: 1.8;
-    
+    font-size: 16px;
+    font-weight: 600;
+    color: #4a4e50;
+}
+
+.main-exp-details {
+    font-weight: 600;
+    color: #82898d;
 }
 
 .heading > h2 {
@@ -676,7 +683,12 @@ body {
 
     .per-li li a {
         color: var(--primery-color);
-    }
+
+    } 
+    .per-li li a:hover{
+        color: blue;
+
+      }
 
 .lit-sect {
     padding: 10px 30px;
